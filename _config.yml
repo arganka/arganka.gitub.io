@@ -19,8 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://arganka.github.io/kotakhci/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/kotakhci" # the subpath of your site, e.g. /blog
+url: "https://arganka.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################
 # Settings related to the Header and your About page go here,such as 
@@ -28,7 +28,7 @@ url: "https://arganka.github.io/kotakhci/" # the base hostname & protocol for yo
 # your social media links etc
 #######################################################################
 
-heading: Digital Garden # Change this 
+heading: Digital Garden Test # Change this 
 copyright:  
   year: 2021
   msg: Arganka Yahya # This is a mandatory attribute for copyright to be displayed ; If deleting this, edit at footer layout.
@@ -123,7 +123,7 @@ defaults:
       permalink: /posts/:title
       content-type: post
   - scope:
-      path: ""
+      path: "/kotakhci/"
       type: notes
     values:
       layout: Post
