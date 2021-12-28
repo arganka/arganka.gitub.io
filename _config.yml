@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 
-baseurl: "/kotakhci" # the subpath of your site, e.g. /blog
+baseurl: "/kotakhci/" # the subpath of your site, e.g. /blog
 url: "https://arganka.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 #######################################################################
@@ -116,14 +116,14 @@ sass:
 
 defaults:
   - scope:
-      path: ""
+      path: "/kotakhci"
       type: posts
     values:
       layout: Post
       permalink: /posts/:title
       content-type: post
   - scope:
-      path: "/kotakhci/"
+      path: "/kotakhci"
       type: notes
     values:
       layout: Post
